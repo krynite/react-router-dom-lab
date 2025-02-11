@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Route } from "react-router";
+import { Route, Routes } from "react-router";
 import NavBar from "../components/NavBar/NavBar";
 import MailboxList from "../components/MailboxList/MailboxList";
 import MailboxForm from "../components/MailboxForm/MailboxForm";
