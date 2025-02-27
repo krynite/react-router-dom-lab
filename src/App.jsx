@@ -37,6 +37,7 @@ const App = () => {
         <Route path="/mailboxes" element={<MailboxList mailboxes={mailboxes} />} />
         <Route path="/new-mailbox" element={<MailboxForm addBox={addBox} />} />
         <Route path="/mailboxes/:mailboxIdlboxes" element={<MailboxDetails mailboxes={mailboxes} letters={letters} />} />
+        <Route path="/new-letter" element={<NewLetter mailboxes={mailboxes} letters={letters} addLetter={addLetter} />} />
       </Routes>
     </>
   );
