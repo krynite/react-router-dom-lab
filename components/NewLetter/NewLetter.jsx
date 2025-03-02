@@ -1,13 +1,11 @@
-import { useNavigate } from "react-router";
-import { useState } from "react";
-
+import LetterForm from "../LetterForm/LetterForm";
 
 const NewLetter = ({ mailboxes, letters, addLetter }) => {
 
 
     return (
         <>
-            <p>New Letter here</p>
+            <LetterForm mailboxes={mailboxes} addLetter={addLetter} />
         </>
     );
 };
